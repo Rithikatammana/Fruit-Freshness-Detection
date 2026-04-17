@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-model = tf.keras.models.load_model("model/fruit_model.h5", compile=False)
+model = tf.keras.models.load_model("fruit_model.h5", compile=False)
 
 # class labels
 class_names = [
