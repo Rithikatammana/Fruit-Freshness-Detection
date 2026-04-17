@@ -50,4 +50,4 @@ model.compile(
 
 model.fit(train_data, epochs=10, validation_data=test_data)
 
-model.save("model/fruit_model.h5")
+model.save("fruit_model.h5")
